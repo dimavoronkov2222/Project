@@ -1,0 +1,36 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "A sample Angular or Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build:prod": "ng build --prod"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "rxjs": "~6.6.7",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "^14.2.0",
+    "@angular/compiler-cli": "^14.2.0",
+    "@types/node": "^16.11.11",
+    "typescript": "^4.7.2"
+  }
+}
